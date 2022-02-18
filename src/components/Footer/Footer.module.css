@@ -1,0 +1,61 @@
+.container {
+  background-color: #253843;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 42px;
+}
+
+.section:not(:first-child) {
+  align-items: center;
+  border-left: 1px solid #45505a;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logoLabel {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 12px;
+}
+
+.greyText {
+  font-size: 14px;
+  color: #8c94a0;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.info {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #4188e3;
+}
+
+.link {
+  margin-top: 2px;
+}
+
+.sectionLabel {
+  margin-top: 21px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #4188e3;
+}

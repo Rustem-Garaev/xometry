@@ -1,0 +1,32 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  background-color: #f3f6f8;
+  flex-grow: 1;
+  background-image: url("/src/assets/images/registration-background-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.centerMode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topMode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 50px;
+  background-position: top center;
+}

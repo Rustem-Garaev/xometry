@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  box-shadow: inset 0 -2px #dee0e3;
+  background-color: white;
+}
+
+.logo {
+  display: block;
+}
+
+.title {
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #253843;
+}
+
+.languageSelect {
+  margin-left: auto;
+  width: 120px;
+}
+
+.languageSelectOption {
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  gap: 8px;
+  grid-auto-columns: min-content;
+}
+
+.logInButton {
+  all: unset;
+  margin-left: 24px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #55646d;
+  cursor: pointer;
+}
